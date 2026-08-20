@@ -24,23 +24,20 @@ void main() {
         // Text widget
         child: Text(
           'Hello Ninjas',
-
-          // Added a TextStyle widget for styling text
-          style: TextStyle(
+          style: TextStyle( // Added a TextStyle widget for styling text
             fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
+            fontWeight: FontWeight.bold, // Added font weight using FontWeight class
+            letterSpacing: 2.0, // Added letter spacing (check documentation for options)
+            color: Colors.grey[600], // Added text color
             fontFamily: "OpenSans", // Using a custom font (pubspec.yaml)
-
           ),
         ),
       ),
-
+      
       // Added floating button
       floatingActionButton: FloatingActionButton(
         onPressed: null, // This property is required when using buttons
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.red[600], // Added background color for button
         child: Text('Click'),
       ),
     ),
