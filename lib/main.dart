@@ -1,8 +1,13 @@
+// This lesson is about utilizing Stateless Widgets
+// allowing for hot reload and proper code structuring.
+// NOTE: This code structuring is considered for best-practices
+
 import 'package:flutter/material.dart';
 
 // Entry Point
+// Take note that the main code structure is removed from the entry point
 void main() {
-  runApp(Home());
+  runApp(Home()); // Calling the Root Widget
 }
 
 // Root Widget
