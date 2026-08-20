@@ -1,5 +1,6 @@
 // Lesson 2 is about the utilization
 // of colours & fonts (custom fonts).
+
 // Custom fonts are stored in the assets\fonts folder
 
 import 'package:flutter/material.dart';
