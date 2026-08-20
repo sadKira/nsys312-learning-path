@@ -1,3 +1,6 @@
+// This lesson is about the usage of the
+// Scaffold and AppBar widget
+
 import 'package:flutter/material.dart';
 
 // Entry point
