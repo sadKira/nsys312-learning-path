@@ -1,5 +1,6 @@
 // This lesson is about utilizing Stateless Widgets
 // allowing for hot reload and proper code structuring.
+
 // NOTE: This code structuring is considered for best-practices
 
 import 'package:flutter/material.dart';
