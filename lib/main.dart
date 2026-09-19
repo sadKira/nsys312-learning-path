@@ -20,36 +20,20 @@ class Home extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red[600],
         ),
-        body: Center(
-          // Icon
-          // Ctrl + Q to view all icon names
-          // child: Icon(
-          //  Icons.airport_shuttle,
-          //  color: Colors.lightBlue,
-          //  size: 50.0,
-          // )
 
-          // Button
-          // child: TextButton(
-          child: IconButton(
-          // child: ElevatedButton.icon(
-            onPressed: () {
-              print('Clicked');
-            }, 
-            // label: Text('Mail Me'),
-            icon: Icon(
-              Icons.mail_lock_sharp,
-            ),
-            
-            style: IconButton.styleFrom(
-            // style: ElevatedButton.styleFrom(
-            // style: TextButton.styleFrom(
-                backgroundColor: Colors.lightBlue,
-                foregroundColor: Colors.black,
-            ),
-            // child: Text('Click Me'),
-          ),
+        // Padding()
+        // Margin()
+        body: Container(
+          // Symmetric padding for identical pairs of X & Y padding
+          // padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
+          // fromLTRB padding for specific individual values
+          // padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+          // all padding for all identical padding for all sides
+          padding: EdgeInsets.all(20.0),
 
+          margin: EdgeInsets.all(30.0),
+          color: Colors.grey[400],
+          child: Text("Hello"),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
