@@ -21,10 +21,35 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.red[600],
         ),
         body: Center(
-          child: ElevatedButton(
-            onPressed: () {}, 
-            child: Text('Click Me'),
+          // Icon
+          // Ctrl + Q to view all icon names
+          // child: Icon(
+          //  Icons.airport_shuttle,
+          //  color: Colors.lightBlue,
+          //  size: 50.0,
+          // )
+
+          // Button
+          // child: TextButton(
+          child: IconButton(
+          // child: ElevatedButton.icon(
+            onPressed: () {
+              print('Clicked');
+            }, 
+            // label: Text('Mail Me'),
+            icon: Icon(
+              Icons.mail_lock_sharp,
             ),
+            
+            style: IconButton.styleFrom(
+            // style: ElevatedButton.styleFrom(
+            // style: TextButton.styleFrom(
+                backgroundColor: Colors.lightBlue,
+                foregroundColor: Colors.black,
+            ),
+            // child: Text('Click Me'),
+          ),
+
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: null,
