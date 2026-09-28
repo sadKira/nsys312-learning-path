@@ -38,7 +38,11 @@ class Home extends StatelessWidget {
           // Feel free to research online for more information
           //
           // .symmetric padding for identical pairs of X & Y padding
+          // e.g. EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0)
+          //
           // .fromLTRB padding for specific individual values
+          // e.g. EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0, 50.0),
+          //
           // .all padding, for all identical padding for all sides
 
           // adding padding
@@ -50,6 +54,14 @@ class Home extends StatelessWidget {
           color: Colors.grey[400],
           child: Text('Hello'),
         ),
+
+        // Should you want to add padding to a widget without
+        // margins and colors, you may use the Padding widget below
+        //
+        // body: Padding(
+        //   padding: EdgeInsets.all(90.0),
+        //   child: Text('Hello'),
+        // ),
 
         floatingActionButton: FloatingActionButton(
           onPressed: null,
